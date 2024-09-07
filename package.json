@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^11.5.4",
     "lama-dev-portfolio-starter": "file:",
     "next": "14.1.0",
     "react": "18",
