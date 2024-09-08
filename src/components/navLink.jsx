@@ -7,7 +7,7 @@ const navLink = ({link}) => {
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const pathName = usePathname();
-    console.log(pathName);
+
 
   return (
     <Link className={`rounded p-1 ${pathName === link.url && "bg-black text-white"}`} href={link.url}>{link.title}</Link>
