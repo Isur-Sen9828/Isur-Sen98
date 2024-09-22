@@ -24,11 +24,7 @@ const TestPage = () => {
         animate={{x:-192, opacity:100}}
         transition={{duration:2}}
         ></motion.div>
-        <motion.div className="w-96 h-96 bg-red-500 rounded-lg " 
-        initial={{x:+700, opacity:0}}
-        animate={{x:-192, opacity:100}}
-        transition={{duration:2}}
-        ></motion.div>
+        
     </div>
   )
 }
