@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+import { Brain} from '@/components/brain';
 
 const Contact = () => {
   return (
@@ -9,6 +10,7 @@ const Contact = () => {
     animate={{y:"0%"}} 
     transition={{duration:1}}>
       <div>Portfoliio</div>
+      {/* <Brain/> */}
 </motion.div>
   )
 }
