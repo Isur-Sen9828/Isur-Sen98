@@ -31,7 +31,7 @@ const pathName = usePathname()
         <div className="h-24">
           <Navbar/>
           </div>
-          <div className="h-[calc(100vh-6rem)] ">
+          <div className="h-[calc(100vh-3rem)] ">
             {children}
             </div>
     </div>      

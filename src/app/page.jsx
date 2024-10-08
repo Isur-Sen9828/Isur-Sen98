@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Homepage = () => {
   return ( 
      <motion.div>
-  <div className="h-screen flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-44">
+  <div className="h-screen flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-44 ">
     {/* Image container */}
     <div className="h-1/2 lg:h-full lg:w-1/2 relative lg:m-4 z-10">
       <Image src="/hero.png" 
@@ -17,7 +17,7 @@ const Homepage = () => {
       </Image>
     </div>
     {/* Text Container */}
-    <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center lg:m-4 z-20">
+    <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center lg:m-4 z-20 ">
     {/* Topic */}
     <h1 className="text-4xl md:text-6xl font-bold ">Crafting  Digital Experiences, Designing Tomorrow. </h1>
     {/* Description */}
